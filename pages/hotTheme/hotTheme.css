@@ -1,0 +1,143 @@
+#indexHeader{
+    height: 85px;
+    border-bottom: 0;
+    background-color: #7799ab;
+}
+
+.expertBox{
+    margin-top: 55px;
+    position: relative;
+    z-index: 11;
+}
+.expertBox .expertInfo{
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+}
+/*名称信息*/
+.userInfo{
+    width: 60%;
+}
+.position{
+    width: 100%;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /*border-right: 1px solid gainsboro;*/
+}
+.position>span:nth-of-type(1){
+    padding-right:15px;
+    border-right: 1px solid rgba(0, 0, 0, 0.64);
+    margin-right: 8%;
+}
+time{
+    font-size: 12px;
+    color: gray;
+}
+.name{
+    color: white;
+    position: relative;
+    top:-13px;
+    left:5px;
+}
+.expertInfo>p{
+    width:70px;
+    height: 70px;
+    /*padding-bottom: 15%;*/
+    position: relative;
+    border-radius: 70px;
+    margin-right: 5%;
+    border: 1px solid gainsboro;
+}
+.expertInfo>p img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    border-radius: 50%;
+}
+.expertInfo>div{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.experIntroduce{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.65);
+}
+.textHide{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.textShow{
+    text-align: center;
+    margin-top: -17px;
+    padding-bottom: 11px;
+}
+.experIntroduce,.time{
+    width: 94%;
+    margin: 20px  auto;
+}
+.time{
+    color: rgba(0, 0, 0, 0.69);
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
+/*最新动态*/
+.newChange{
+    width: 94%;
+    margin: 0 auto;
+}
+.newChange>p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.newChange .ques{
+     display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+.newChange>div>div  p{
+    margin-bottom: 8px;
+}
+.changeBox>div{
+    /*padding-bottom: 10px;*/
+    border-bottom: 1px solid rgba(220, 220, 220, 0.53);
+    margin-top: 10px;
+}
+.opcaty{
+    height: 10px;
+    background-color: rgba(220, 220, 220, 0.62);
+}
+.setTopBtn{
+    display: inline-block;
+    padding: 0 2%;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 3px;
+    border: 1px solid  #4082FC;
+    color:  #4082FC;
+    font-size: 12px;
+}
+
+.addBtn{
+    text-align: center;
+    margin-top: 6%;
+    font-size: 15px;
+
+}
+.addBtn a{
+    text-decoration: none;
+    color:  #4082FC;
+
+}

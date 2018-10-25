@@ -1,0 +1,107 @@
+/*搜索框*/
+.search{
+    width: 87%;
+    margin: 0 auto;
+    /*border: 1px solid gainsboro;*/
+    border-radius: 30px;
+    position: relative;
+    height: 40px;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+}
+.search input{
+    position: absolute;
+    left:15px;
+    top:5px;
+    width: 90%;
+    height: 80%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.search img{
+    position: absolute;
+    right:16px;
+    top:12px;
+}
+
+/*专家列表*/
+.expertBox>div{
+     width: 94%;
+    margin: 10px   auto;
+    height: 97px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+.expertBox .expertPhoto{
+    width:70px;
+    height: 70px;
+    /*padding-bottom: 15%;*/
+    position: relative;
+    border-radius: 70px;
+    border: 1px solid gainsboro;
+    /*margin-right: 5%;*/
+}
+.expertBox .expertText{
+    width: 75%;
+    padding-bottom: 10px;
+    /*border: 1px solid red;*/
+    border-bottom: 1px solid rgba(220, 220, 220, 0.65);
+}
+.expertBox .expertPhoto img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    border-radius: 50%;
+}
+.expertBox .expertText .expertName{
+    display: flex;
+    justify-content: space-between;
+}
+.expertBox .subject{
+    margin: 10px 0;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.expertBox .subject,.subjectIntroduce{
+    width: 100%;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.expertBox  .subjectIntroduce{
+    color: rgba(0, 0, 0, 0.74);
+}
+.expertBox  .studyStatus{
+
+    font-size: 12px;
+    display: inline-block;
+    padding: 3px 6px;
+    border-radius:4px;
+}
+/*开始按钮*/
+.beginning{
+    border: 1px solid #4082fc;
+    color:#4082fc ;
+}
+.noBeginning{
+    border: 1px solid #999999;
+    color:#999999 ;
+}
+input::-webkit-input-placeholder{
+    color: rgba(128, 128, 128, 0.65);
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:gray;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:gray;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+    color:gray;
+}

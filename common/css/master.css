@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*<!--头部搜索和轮播-->*/
+#indexHeader {
+    z-index: 10 ;
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.69);
+    top: 0;
+    left: 0;
+    background: white;
+    /*font-weight: bold;*/
+    font-size: 18px;
+}
+#indexHeader img{
+    position: absolute;
+    left:1px;
+    width:40px;
+    top:1px;
+}
+
+/*input框  placeholder 设置颜色*/
+input::-webkit-input-placeholder{
+    color:gainsboro;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:gainsboro;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:gainsboro;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+    color:gainsboro;
+}
+
